@@ -9,6 +9,10 @@
 import UIKit
 
 class ResultsViewController: UIViewController {
+    
+    @IBOutlet var amountLabel: UILabel!
+    @IBOutlet var textRepresentation: UILabel!
+    var amountPerPerson = 0.0
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,6 +21,9 @@ class ResultsViewController: UIViewController {
     }
     
 
+    @IBAction func recalculatePressed(_ sender: UIButton) {
+        self.dismiss(animated: true)
+    }
     /*
     // MARK: - Navigation
 

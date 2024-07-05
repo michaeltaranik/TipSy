@@ -14,6 +14,7 @@
 		ADB6895C2326708E006D4E2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADB6895B2326708E006D4E2B /* Assets.xcassets */; };
 		ADB6895F2326708E006D4E2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB6895D2326708E006D4E2B /* LaunchScreen.storyboard */; };
 		E4A955682C37D1FB009D7F11 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A955672C37D1FB009D7F11 /* ResultsViewController.swift */; };
+		E4A9556C2C386B4A009D7F11 /* TipBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A9556B2C386B4A009D7F11 /* TipBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		ADB6895E2326708E006D4E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADB689602326708E006D4E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4A955672C37D1FB009D7F11 /* ResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
+		E4A9556B2C386B4A009D7F11 /* TipBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				ADB6895B2326708E006D4E2B /* Assets.xcassets */,
 				ADB689522326708D006D4E2B /* AppDelegate.swift */,
 				ADB689542326708D006D4E2B /* SceneDelegate.swift */,
+				E4A9556D2C38723A009D7F11 /* Model */,
 				E4A955692C37D20E009D7F11 /* Controller */,
 				E4A9556A2C37D230009D7F11 /* View */,
 			);
@@ -84,6 +87,14 @@
 				ADB689582326708D006D4E2B /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		E4A9556D2C38723A009D7F11 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4A9556B2C386B4A009D7F11 /* TipBrain.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +172,7 @@
 				ADB689532326708D006D4E2B /* AppDelegate.swift in Sources */,
 				ADB689552326708D006D4E2B /* SceneDelegate.swift in Sources */,
 				E4A955682C37D1FB009D7F11 /* ResultsViewController.swift in Sources */,
+				E4A9556C2C386B4A009D7F11 /* TipBrain.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
